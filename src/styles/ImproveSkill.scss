@@ -1,0 +1,29 @@
+@import "Colors.scss";
+.section.improve-skills{
+
+.col.img{
+    
+    img{
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;       object-fit: cover;
+      
+    }
+   
+}
+.title {
+    margin-left: 20px;
+
+}  
+button{
+    margin-left: 20px;
+}
+.list{
+    margin-bottom: 10px;
+    border-left: 3px solid var(--primary-color);
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+}

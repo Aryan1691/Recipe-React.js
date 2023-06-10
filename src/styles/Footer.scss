@@ -1,0 +1,22 @@
+@import "Colors.scss";
+
+.footer{
+    background-color: black;
+    padding: 4em;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+  .footer-section{
+    p{
+        opacity: 0.5;
+        margin-bottom: .5em;
+    }
+    .footer-title{
+        font-size: larger;
+        opacity: 1;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "Colors.scss";
+
+.section.quote{
+    display: block;
+   svg{
+    color: var(--primary-color);
+    margin-right: 0.4em;
+    font-size: larger;
+   }
+    .quote-text{
+        font-size: 1.5em;
+        line-height: 2;
+    }
+    .quote-author{
+        
+        text-align: right;
+        color: var(--text-light);
+        margin-top: 1em;
+        font-weight: bold;
+    }
+}

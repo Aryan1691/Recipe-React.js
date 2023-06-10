@@ -1,0 +1,107 @@
+@import "Colors.scss";
+
+.main{
+  padding-block: 6vw;
+  padding-inline:4vw;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3vw;
+    
+// .typography{
+  
+// }
+    .col{
+        width: 50%;
+       
+    }
+    .btn{
+        border: none;
+        outline: none;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 10px;
+        box-shadow: 3px 6px  rgba(0,0,0,0.8);
+        cursor: pointer;
+        padding-inline: 10px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-top: 1.25em;
+        &:hover{
+            box-shadow: 3px 6px 2px rgba(0,0,0,0.8);
+
+        }
+    }
+   .title{
+    color: var(--text-color);
+    font-size: 3em;
+    margin-bottom: .25em;
+   }
+   .info{
+    color: var(--text-color);
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+   }
+
+}
+.section.hero{
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.75vw;
+    }
+}
+.con{
+    height: 600px; /* Set the desired height of the container */
+   display: flex;
+   position: relative;
+   top: -82px;
+   width: 110%;
+   margin-left: -70px;
+   margin-bottom: 120px;
+
+}
+.img2{
+    width: 121%;
+    height: 130%;
+    filter: blur(4px); 
+    margin: 0;   
+    padding: 0;
+  
+    /* Ensure the image does not exceed the container's width */
+    
+}
+.middle-text{
+// position: absolute;
+
+position: absolute;
+top: 50%;
+left: 32%;
+
+font-weight: bolder;
+font-size: 3em;
+background: linear-gradient(30deg,#89CFF0,rgb(6, 72, 255), #ff07cd,rgb(255, 255, 13));
+background-clip: text;
+// background: linear-gradient(30deg);
+-webkit-background-clip: text;
+color: transparent;
+animation-name: back;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+background-size: 200%;
+}
+@keyframes back {
+    
+    to{
+        background-position: 0% center;
+
+    }
+    from{
+        background-position: -200% center;
+    }
+}
