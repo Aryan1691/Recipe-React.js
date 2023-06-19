@@ -26,8 +26,11 @@ const HeroSection = () => {
   return (
    <React.Fragment>
    <div className='con' >
-   <img src={bgs} className='img2' alt="BACKGROUn" />
+   <img src={bgs} className='img2' alt="BACKGROUND" data-aos="fade-top" />
+   <div className='middle' data-aos="fade-up"> delightful experience</div>
    <h1 className='middle-text' data-aos='fade-up'>Welcome to Foodathon</h1>
+   <div className='middle-text2' data-aos="fade-up">
+Welcome to our Recipe App, where you can discover and explore a world of delicious recipes at your fingertips. From mouthwatering entrees to delectable desserts, we have a wide range of culinary inspirations to satisfy your cravings and ignite your passion for cooking.</div>
    </div>
    
     <div className="section hero"  >

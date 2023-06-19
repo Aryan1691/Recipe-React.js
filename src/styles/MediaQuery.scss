@@ -52,9 +52,39 @@
     .sidebar {
         padding-top: 52px;
     }
+    .con{
+        .middle{
+            left: 40%;
+        }
+        .middle-text{
+            font-size: 2.8em;
+            left: 29%;
+            top: 42%;
+        }
+        .middle-text2{
+            top: 65%;
+            left: 24%;
+            width: 80%;
+        }
+    }
 }
 
 @media screen and (max-width:1050px){
+    // .con{
+    //     .middle{
+    //         left: 53%;
+    //     }
+    //     .middle-text{
+    //         font-size: 2.8em;
+    //         left: 29%;
+    //         top: 42%;
+    //     }
+    //     .middle-text2{
+    //         top: 56%;
+    //         left: 24%;
+    //         width: 80%;
+    //     }
+    // }
     .container{
         padding-inline: 12vw;
     }

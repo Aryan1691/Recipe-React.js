@@ -24,6 +24,7 @@ position: fixed;
         -webkit-background-clip: text; /* For Safari/Chrome */
         color: transparent;
         transition: 2s;
+        background-size:100% 200%;
         scrollbar-shadow-color: #89CFF0;
 
         &:hover{
@@ -37,6 +38,8 @@ position: fixed;
         letter-spacing: 0.2rem;
         text-transform: uppercase;
         position: relative;
+        color: blue;
+        font-weight: light;
         &::before{
             content: "";
             width: 100%;

@@ -1,5 +1,5 @@
 @import "Colors.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playfair+Display+SC&display=swap');
 .main{
   padding-block: 6vw;
   padding-inline:4vw;
@@ -68,22 +68,21 @@
 .img2{
     width: 121%;
     height: 130%;
-    filter: blur(4px); 
     margin: 0;   
     padding: 0;
-  
-    /* Ensure the image does not exceed the container's width */
+//   --webkit-filter: brightness(30px);
+  filter: brightness(36%);
     
 }
 .middle-text{
-// position: absolute;
 
 position: absolute;
-top: 50%;
-left: 32%;
+top: 39%;
+left: 24%;
+font-family: 'Playfair Display SC', serif;
 
-font-weight: bolder;
-font-size: 3em;
+font-weight: 300;
+font-size: 4em;
 background: linear-gradient(30deg,#89CFF0,rgb(6, 72, 255), #ff07cd,rgb(255, 255, 13));
 background-clip: text;
 // background: linear-gradient(30deg);
@@ -94,6 +93,28 @@ animation-duration: 3s;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
 background-size: 200%;
+}
+.middle-text2{
+    position: absolute;
+    top: 57%;
+    left: 28%;
+    width: 50%;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 200;
+}
+.middle{
+    position: absolute;
+top: 35%;
+left: 47%;
+z-index: 9999;
+font-weight: 300;
+font-family: 'Playfair Display SC', serif;
+color: white;
 }
 @keyframes back {
     
